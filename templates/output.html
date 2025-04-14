@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+    .result-box {
+      margin-top: 100px;
+      background-color: #1e293b;
+      padding: 50px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+    .result-box h1 {
+      font-size: 3rem;
+      color: #38bdf8;
+    }
+    .btn-home {
+      margin-top: 30px;
+      background-color: #0ea5e9;
+      color: white;
+      border: none;
+    }
+    .btn-home:hover {
+      background-color: #0284c7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="result-box">
+      <h1>⚡ Predicted Demand: {{ prediction }} kW</h1>
+      <p class="lead mt-3">This is the estimated charging load based on your inputs.</p>
+      <a href="/" class="btn btn-home btn-lg mt-4">🔁 Try Again</a>
+    </div>
+  </div>
+</body>
+</html>
