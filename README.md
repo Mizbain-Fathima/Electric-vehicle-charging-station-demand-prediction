@@ -123,15 +123,5 @@ To try out the app, you can use the following sample values:
 
 ---
 
-## 🤝 Contributing
 
-If you would like to contribute to this project, feel free to fork the repository and submit pull requests. Please ensure that any changes or improvements are properly tested before submitting.
 
----
-
-## 🪪 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-```
-
-Let me know if you want this as a downloadable file or want to include images/screenshots or deployment instructions next!
